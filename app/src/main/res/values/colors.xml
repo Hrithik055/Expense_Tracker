@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#049E8F</color>
+    <color name="statusColor">#EB049E8F</color>
+    <color name="textColor">#EB6F7070</color>
+    <color name="redColor">#EC3B2E</color>
+
+    <color name="category1">#009688</color>
+    <color name="category2">#9C27B0</color>
+    <color name="category3">#3F51B5</color>
+    <color name="category4">#FF5722</color>
+    <color name="category5">#00BCD4</color>
+    <color name="category6">#E91E63</color>
+
+    <color name="cashColor">#004E47</color>
+    <color name="upiColor">#23025E</color>
+    <color name="cardColor">#7C1E00</color>
+    <color name="netBankingColor">#003967</color>
+    <color name="walletsColor">#014903</color>
+
+</resources>

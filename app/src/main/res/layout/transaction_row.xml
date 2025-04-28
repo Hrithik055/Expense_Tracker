@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/transaction_Image"
+        android:layout_width="60dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/category_bg"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/account"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/transaction_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Business"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/transaction_Image"
+        app:layout_constraintTop_toTopOf="@+id/transaction_Image" />
+
+    <TextView
+        android:id="@+id/tranaction_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/account_bg"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="5dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="3dp"
+        android:text="Cash"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/transaction_Image"
+        app:layout_constraintStart_toStartOf="@+id/transaction_type"
+        app:layout_constraintTop_toBottomOf="@+id/transaction_type" />
+
+    <TextView
+        android:id="@+id/transaction_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="April 3, 2024"
+        android:textColor="#6A5C5C"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/transaction_Image"
+        app:layout_constraintStart_toEndOf="@+id/tranaction_label"
+        app:layout_constraintTop_toBottomOf="@+id/transaction_type" />
+
+    <TextView
+        android:id="@+id/transaction_Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:text="1000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/transaction_Date"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/update_Image"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/transaction_Amount"
+        app:layout_constraintEnd_toEndOf="@+id/delete_Image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/updateicon"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/delete_Image"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/transaction_Amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delete_24"
+        android:layout_marginEnd="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
