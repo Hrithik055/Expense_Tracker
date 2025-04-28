@@ -14,5 +14,5 @@
 
 
 
-https://github.com/HassanMuawia01/Expense-Manager/assets/145201697/555b0211-479e-4070-a766-4e099bbd9597
+https://github.com/Hrithik055/Expense_Tracker/blob/master/demo.mp4
 
